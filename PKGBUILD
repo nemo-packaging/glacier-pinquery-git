@@ -20,7 +20,7 @@ arch=('x86_64' 'aarch64')
 url="https://$_host/$_project/$_gitname#branch=$_branch"
 license=('BSD-3-Clause')
 # https://github.com/TelepathyIM/telepathy-qt/wiki/Connection-Managers#fragmentation-story-s01e03
-depends=('qt5-glacier-app-git' 'libqofono')
+depends=('qt5-glacier-app-git' 'qt5-ofono-git')
 makedepends=('git')
 provides=("${pkgname%-git}")
 conflicts=("${pkgname%-git}")
